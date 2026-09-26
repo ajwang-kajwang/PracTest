@@ -1,0 +1,21 @@
+{
+  "name": "Jade Palace Club Night",
+  "seed": 4,
+  "steps": 200,
+  "max_parallel": 1,
+  "clubs": ["Jade Palace", "Iron Fist"],
+  "competitors": {
+    "count": 10,
+    "age_range": [9, 40],
+    "rank_weights": {"White": 4, "Yellow": 3, "Green": 2, "Blue": 2, "Red": 1, "Black": 1},
+    "skill_chance": {"pattern": 1.0, "sparring": 0.8, "team_pattern": 0.0, "breaking": 0.0}
+  },
+  "events": [
+    {"type": "pattern", "name": "Club Patterns", "mat": "Main Mat",
+     "sequence": [["N", "middle punch"], ["E", "low block"],
+                  ["S", "middle punch"], ["W", "low block"]],
+     "difficulty": 0.95},
+    {"type": "sparring", "name": "Club Sparring", "mat": "Main Mat",
+     "min_rank": "Yellow", "difficulty": 1.0}
+  ]
+}
