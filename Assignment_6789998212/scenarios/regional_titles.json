@@ -1,0 +1,27 @@
+{
+  "name": "Regional Titles",
+  "seed": 11,
+  "steps": 400,
+  "max_parallel": 2,
+  "clubs": ["Jade Palace", "Iron Fist", "Crane Hill", "Thunder Valley"],
+  "competitors": {
+    "count": 28,
+    "age_range": [9, 52],
+    "rank_weights": {"White": 3, "Yellow": 3, "Green": 3, "Blue": 3, "Red": 2, "Black": 2},
+    "skill_chance": {"pattern": 1.0, "team_pattern": 0.9, "sparring": 0.8, "breaking": 0.6}
+  },
+  "events": [
+    {"type": "pattern", "name": "Junior Patterns", "mat": "Mat A",
+     "max_rank": "Green", "max_age": 17, "difficulty": 0.95,
+     "medal_points": [5, 3, 1]},
+    {"type": "sparring", "name": "Senior Sparring", "mat": "Mat B",
+     "min_rank": "Blue", "min_age": 18, "difficulty": 1.05,
+     "medal_points": [6, 3, 1]},
+    {"type": "pattern", "name": "Senior Patterns", "mat": "Mat A",
+     "min_rank": "Blue", "min_age": 18, "difficulty": 1.1},
+    {"type": "team_pattern", "name": "Club Team Patterns", "mat": "Mat B",
+     "team_size": 3, "difficulty": 1.05, "medal_points": [6, 4, 2]},
+    {"type": "breaking", "name": "Power Breaking", "mat": "Mat A",
+     "min_rank": "Blue", "min_age": 16, "max_boards": 6, "difficulty": 1.1}
+  ]
+}

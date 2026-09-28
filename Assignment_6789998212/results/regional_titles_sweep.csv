@@ -1,0 +1,10 @@
+value,seed,steps,completed,competitors,events_held,top_club,top_points
+12,1,148,True,12,4,Iron Fist,24
+12,2,140,True,12,4,Crane Hill,23
+12,3,161,True,12,4,Crane Hill,19
+24,1,194,True,24,5,Jade Palace,25
+24,2,172,True,24,5,Crane Hill,27
+24,3,165,True,24,4,Jade Palace,35
+36,1,201,True,36,5,Jade Palace,26
+36,2,182,True,36,5,Crane Hill,27
+36,3,185,True,36,5,Jade Palace,39

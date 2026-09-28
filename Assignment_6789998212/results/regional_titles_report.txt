@@ -1,0 +1,134 @@
+========================================================================
+PY KWON DO SIMULATION REPORT - Regional Titles
+========================================================================
+Scenario source : scenarios/regional_titles.json
+Random seed     : 11
+Timestep budget : 400
+Timesteps run   : 132
+Finished        : yes
+
+========================================================================
+Regional Titles - entry statistics
+========================================================================
+Competitors : 28
+Clubs       : 4
+Venue       : Venue 38x19, 8 areas
+Ranks       : White < Yellow < Green < Blue < Red < Black
+
+Competitors at each rank
+    White    #### 4
+    Yellow   ##### 5
+    Green    ####### 7
+    Blue     ###### 6
+    Red      ## 2
+    Black    #### 4
+
+Competitors from each club
+    Crane Hill         ####### 7
+    Iron Fist          ####### 7
+    Jade Palace        ####### 7
+    Thunder Valley     ####### 7
+
+Competitors trained in each event type
+    breaking       ################# 17
+    pattern        ############################ 28
+    sparring       ##################### 21
+    team_pattern   ######################### 25
+
+========================================================================
+Event results
+========================================================================
+Junior Patterns - pattern on Mat A (any to Green, age 0-17)
+    1. Eshe (Jade Palace)           score   57.4   5 pts
+    2. Monkey (Crane Hill)          score   54.1   3 pts
+    3. Goro (Iron Fist)             score   53.3   1 pts
+    4. Jae (Crane Hill)             score   41.5   0 pts
+    5. Kofi (Jade Palace)           score   38.3   0 pts
+    6. Sami (Jade Palace)           score   37.0   0 pts
+    7. Noor (Iron Fist)             score   33.0   0 pts
+
+Senior Sparring - sparring on Mat B (Blue to any, age 18-99)
+    1. Cleo (Thunder Valley)        score   87.5   6 pts
+    2. Hugo (Crane Hill)            score   77.3   3 pts
+    3. Rafa (Thunder Valley)        score   80.7   1 pts
+    4. Uma (Crane Hill)             score   67.2   0 pts
+    5. Omar (Thunder Valley)        score   47.7   0 pts
+    6. Tomas (Iron Fist)            score   42.6   0 pts
+
+Senior Patterns - pattern on Mat A (Blue to any, age 18-99)
+    1. Cleo (Thunder Valley)        score   75.0   5 pts
+    2. Rafa (Thunder Valley)        score   72.4   3 pts
+    3. Uma (Crane Hill)             score   64.1   1 pts
+    4. Hugo (Crane Hill)            score   63.4   0 pts
+    5. Crane (Thunder Valley)       score   59.4   0 pts
+    6. Tomas (Iron Fist)            score   46.9   0 pts
+    7. Enzo (Jade Palace)           score   46.1   0 pts
+    8. Omar (Thunder Valley)        score   45.5   0 pts
+
+Club Team Patterns - team_pattern on Mat B (any to any)
+    1. Thunder Valley team          score   63.0   6 pts
+    2. Crane Hill team              score   32.2   4 pts
+    3. Jade Palace team             score   17.3   2 pts
+    4. Iron Fist team               score   15.4   0 pts
+
+Power Breaking - breaking on Mat A (Blue to any, age 16-99)
+    1. Quon (Jade Palace) - 2 boards score   26.4   5 pts
+    2. Tomas (Iron Fist) - 1 boards score   14.6   3 pts
+    3. Enzo (Jade Palace) - 1 boards score   13.8   1 pts
+    4. Omar (Thunder Valley) - 0 boards score    3.9   0 pts
+
+========================================================================
+Final standings - individuals
+========================================================================
+Pos  Competitor      Rank    Club                Pts  Placings
+1    Cleo            Black   Thunder Valley       17  Senior Sparring 1st, Senior Patterns 1st, Club Team Patterns 1st
+2    Rafa            Red     Thunder Valley       10  Senior Sparring 3rd, Senior Patterns 2nd, Club Team Patterns 1st
+3    Eshe            Green   Jade Palace           7  Junior Patterns 1st, Club Team Patterns 3rd
+4    Hugo            Blue    Crane Hill            7  Senior Sparring 2nd, Senior Patterns 4th, Club Team Patterns 2nd
+5    Mira            Black   Thunder Valley        6  Club Team Patterns 1st
+6    Quon            Red     Jade Palace           5  Power Breaking 1st
+7    Uma             Black   Crane Hill            5  Senior Sparring 4th, Senior Patterns 3rd, Club Team Patterns 2nd
+8    Jae             Yellow  Crane Hill            4  Junior Patterns 4th, Club Team Patterns 2nd
+9    Monkey          Green   Crane Hill            3  Junior Patterns 2nd
+10   Tomas           Blue    Iron Fist             3  Senior Sparring 6th, Senior Patterns 6th, Power Breaking 2nd
+11   Bao             White   Jade Palace           2  Club Team Patterns 3rd
+12   Sami            Yellow  Jade Palace           2  Junior Patterns 6th, Club Team Patterns 3rd
+13   Enzo            Blue    Jade Palace           1  Senior Patterns 7th, Power Breaking 3rd
+14   Goro            Green   Iron Fist             1  Junior Patterns 3rd, Club Team Patterns 4th
+15   Bela            Blue    Thunder Valley        0  
+16   Ciro            Green   Crane Hill            0  
+17   Crane           Blue    Thunder Valley        0  Senior Patterns 5th
+18   Hana            White   Iron Fist             0  Club Team Patterns 4th
+19   Kofi            White   Jade Palace           0  Junior Patterns 5th
+20   Lian            Green   Crane Hill            0  
+21   Noor            White   Iron Fist             0  Junior Patterns 7th
+22   Omar            Blue    Thunder Valley        0  Senior Sparring 5th, Senior Patterns 8th, Power Breaking 4th
+23   Panda           Black   Iron Fist             0  
+24   Pia             Yellow  Iron Fist             0  
+25   Tigress         Green   Crane Hill            0  
+26   Vik             Yellow  Thunder Valley        0  
+27   Viper           Green   Jade Palace           0  
+28   Zane            Yellow  Iron Fist             0  Club Team Patterns 4th
+
+========================================================================
+Final standings - clubs
+========================================================================
+Pos  Club                  Pts  Golds  Size
+1    Thunder Valley         33      3     7
+2    Crane Hill             19      0     7
+3    Jade Palace            17      2     7
+4    Iron Fist               4      0     7
+
+========================================================================
+Commentary
+========================================================================
+[t=  1] Junior Patterns called up 7 competitors to Mat A
+[t=  1] Senior Sparring called up 6 competitors to Mat B
+[t= 28] Senior Sparring finished - won by Cleo (Thunder Valley)
+[t= 30] Junior Patterns finished - won by Eshe (Jade Palace)
+[t= 31] Senior Patterns called up 8 competitors to Mat A
+[t= 71] Senior Patterns finished - won by Cleo (Thunder Valley)
+[t= 72] Club Team Patterns called up 12 competitors to Mat B
+[t= 73] Power Breaking called up 4 competitors to Mat A
+[t= 91] Power Breaking finished - won by Quon (Jade Palace) - 2 boards
+[t=108] Club Team Patterns finished - won by Thunder Valley team

@@ -1,0 +1,33 @@
+{
+  "name": "National Grading Championships",
+  "seed": 21,
+  "steps": 600,
+  "max_parallel": 3,
+  "clubs": ["Jade Palace", "Iron Fist", "Crane Hill", "Thunder Valley", "Silver Lotus"],
+  "ranks": [
+    {"name": "White",  "colour": "white",       "skill": 32},
+    {"name": "Yellow", "colour": "gold",        "skill": 42},
+    {"name": "Green",  "colour": "forestgreen", "skill": 52},
+    {"name": "Blue",   "colour": "royalblue",   "skill": 62},
+    {"name": "Purple", "colour": "darkorchid",  "skill": 70},
+    {"name": "Red",    "colour": "crimson",     "skill": 78},
+    {"name": "Black",  "colour": "black",       "skill": 88}
+  ],
+  "competitors": {"file": "national_grading_roster.csv"},
+  "events": [
+    {"type": "pattern", "name": "Colour Belt Patterns", "mat": "Mat A",
+     "max_rank": "Green", "difficulty": 0.95, "medal_points": [5, 3, 1]},
+    {"type": "sparring", "name": "Colour Belt Sparring", "mat": "Mat B",
+     "max_rank": "Green", "min_age": 12, "difficulty": 1.0},
+    {"type": "breaking", "name": "Senior Power Breaking", "mat": "Mat C",
+     "min_rank": "Purple", "min_age": 16, "max_boards": 7, "difficulty": 1.1,
+     "medal_points": [6, 3, 1]},
+    {"type": "pattern", "name": "Dan Grade Patterns", "mat": "Mat A",
+     "min_rank": "Blue", "difficulty": 1.15, "medal_points": [7, 4, 2]},
+    {"type": "sparring", "name": "Black Belt Sparring", "mat": "Mat B",
+     "min_rank": "Red", "min_age": 18, "difficulty": 1.2,
+     "medal_points": [8, 5, 2]},
+    {"type": "team_pattern", "name": "Club Team Championship", "mat": "Mat C",
+     "team_size": 4, "difficulty": 1.05, "medal_points": [8, 5, 3]}
+  ]
+}
